@@ -16,7 +16,7 @@ let NTU=0
 let x=0
 
     //% shim=DS18B20::Temperature
-    export function Temperature(p: number): number {
+    export function Temperature(p: AnalogPin): number {
         return 0
     }
 
