@@ -48,7 +48,7 @@ let x=0
     //% group="Water Temperature" weight=83
     export function water_temp(p: temppin): number {
         temp=Math.round(Temperature(p)/10)
-        while(temp<85) {
+        while(temp>85) {
             temp=Math.round(Temperature(p)/10)
             basic.pause(100)
             }
