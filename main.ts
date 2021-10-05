@@ -1,4 +1,10 @@
-//% color="#fcba03" weight=10 icon="\uf837"
+/*
+By Anson From KittenBotHK
+
+Turbidity Sensor Extension designed for Micro:bit
+*/
+
+//% color="#fcba03" weight=10 icon="\uf2ce"
 //% groups='["KittenTurbidity"]'
 namespace KittenTurbidity {
 let temp=25
