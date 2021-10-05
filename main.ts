@@ -6,7 +6,7 @@ let deltaU=0
 let U=0
 let U25=0
 let K=0
-let TU=0
+let NTU=0
 let x=0
 
     //% blockId=test block="test"
@@ -34,5 +34,13 @@ let x=0
         U = x*5/1024
         U25 = U-deltaU
         K = 865.68*U25
+    }
+    //% blockId=get_ntu block="Get NTU pin %pin"
+    //% group="NTU" weight=83
+    export function get_ntup(pin: AnalogPin):number {
+        x = pins.analogReadPin(pin)
+        U = x*5/1024
+        NTU = (-865.68*U)+K
+        return NTU
     }
 }
