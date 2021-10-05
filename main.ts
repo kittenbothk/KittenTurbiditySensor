@@ -47,7 +47,8 @@ let x=0
     //% blockId=temp block="Water Temperature pin %p"
     //% group="Water Temperature" weight=83
     export function water_temp(p: temppin): number {
-        for (let index = 0; index < 5; index++) {
+        temp=Math.round(Temperature(p)/10)
+        while(temp<85) {
             temp=Math.round(Temperature(p)/10)
             basic.pause(100)
             }
