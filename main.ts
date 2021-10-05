@@ -14,6 +14,19 @@ let U25=0
 let K=0
 let NTU=0
 let x=0
+
+    //% shim=DS18B20::Temperature
+    export function Temperature(p: number): number {
+        return 0
+    }
+
+    //% blockId=temp block="Water Temperature pin %pin"
+    //% group="Water Temperature" weight=83
+    export function water_temp(t: number, pin: AnalogPin):number {
+        temp=Math.round(Temperature(pin)/10)
+        temp=Math.round(Temperature(pin)/10)
+        return temp
+    }
     
     //% blockId=calibrate block="Calibrate Temp %t, pin %pin"
     //% group="Calibration" weight=83
