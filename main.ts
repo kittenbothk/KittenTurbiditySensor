@@ -19,6 +19,6 @@ let x=0
     //% group="Calibration" weight=83
     export function Calibrate(t: number, pin: AnalogPin) {
         temp=t
-        x = pins.AnalogReadPin(pin)
+        x = pins.analogReadPin(pin)
     }
 }
