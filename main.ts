@@ -1,4 +1,4 @@
-//% color="#fcba03" weight=10 icon="\uf2ce"
+//% color="#fcba03" weight=10 icon="\uf492"
 //% groups='["KittenTurbidity"]'
 namespace KittenTurbidity {
 let temp=25
@@ -26,7 +26,7 @@ let x=0
         K = 865.68*U25
     }
     
-    //% blockId=calibrate_notemp block="Calibrate No Temp pin %pin"
+    //% blockId=calibrate_notemp block="Calibrate No Temp, pin %pin"
     //% group="Calibration" weight=83
     export function Calibrate_notemp(pin: AnalogPin) {
         x = pins.analogReadPin(pin)
