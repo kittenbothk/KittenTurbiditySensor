@@ -35,6 +35,10 @@ let x=0
         x = pins.analogReadPin(pin)
         U = x*5/1024
         NTU = (-865.68*U)+K
-        return NTU
+        if (NTU < 0){
+            return 0
+        } else {
+            return NTU
+        }
     }
 }
