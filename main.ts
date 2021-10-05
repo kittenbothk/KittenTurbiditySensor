@@ -1,11 +1,11 @@
-//% color="#fcba03" weight=10 icon="\uf492"
+//% color="#fcba03" weight=10 icon="\uf837"
 //% groups='["KittenTurbidity"]'
 namespace KittenTurbidity {
 let temp=25
 let deltaU=0
 let U=0
 let U25=0
-let K=0
+let K=3000
 let NTU=0
 let x=0
 
