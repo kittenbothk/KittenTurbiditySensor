@@ -22,7 +22,7 @@ let x=0
 
     //% blockId=temp block="Water Temperature pin %pin"
     //% group="Water Temperature" weight=83
-    export function water_temp(t: number, pin: AnalogPin):number {
+    export function water_temp(pin: AnalogPin):number {
         temp=Math.round(Temperature(pin)/10)
         temp=Math.round(Temperature(pin)/10)
         return temp
