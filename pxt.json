@@ -1,6 +1,8 @@
 {
-    "name": "turbidity",
-    "description": "",
+    "name": "KittenTurbidity",
+    "version": "0.0.1"
+    "description": "KittenBotTurbidity",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -21,5 +23,6 @@
     "supportedTargets": [
         "microbit"
     ],
+    "public":true,
     "preferredEditor": "blocksprj"
 }
