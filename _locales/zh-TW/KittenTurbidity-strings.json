@@ -1,11 +1,8 @@
 {
-  "KittenRadio.change_frequency|block": "更改频道|%change",
-  "KittenRadio.init|block": "收音机初始化",
-  "KittenRadio.mute|block": "静音|%mode",
-  "KittenRadio.search|block": "搜寻|%mode|方向 %dir|adc %adc",
-  "KittenRadio.set_frequency|block": "设定频道|%freq",
-  "KittenRadio.standby|block": "待机|%mode",
-  "KittenRadio|block": "KittenRadio",
-  "{id:category}KittenRadio": "KittenRadio",
-  "{id:group}KittenRadio": "KittenRadio"
+  "KittenTurbidity.water_temp|block": "獲取水溫|%p",
+  "KittenTurbidity.Calibrate|block": "校準濁度感應器|%t, %pin",
+  "KittenTurbidity.Calibrate_notemp|block": "校準濁度感應器|%pin",
+  "KittenTurbidity.get_ntup|block": "獲取NTU|%pin",
+  "{id:category}KittenTurbidity": "KittenTurbidity",
+  "{id:group}KittenTurbidity": "KittenTurbidity"
 }
