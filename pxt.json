@@ -12,7 +12,9 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "ds18b20.cpp"
+        "ds18b20.cpp",
+        "_locales/zh-TW/KittenTurbidity-strings.json",
+        "_locales/zh-CN/KittenTurbidity-strings.json"
     ],
     "testFiles": [
         "test.ts"
