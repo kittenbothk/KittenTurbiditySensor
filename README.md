@@ -2,8 +2,6 @@
 
 Turbitidity Sensor with DS18B20 Sensor Extension developed by Anson from Kittenbot HK.
 
-> 在 [https://kittenbothk.github.io/pxt-kittenturbiditysensor/](https://kittenbothk.github.io/pxt-kittenturbiditysensor/) 打開此頁面
-
 ## 作為擴充功能使用
 
 可以在 MakeCode 中將此儲存庫新增為**擴充功能**。
