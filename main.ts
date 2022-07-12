@@ -39,6 +39,12 @@ let x=0
            pin16 = 16
          }
     
+    //% blockId=ds18init block="Init Water Temp Pin %pin"
+    //% group="Water Temperature Sensor" weight=80
+    export function ds18init(pin: DigitalPin) {
+        pins.setPull(pin, PinPullMode.PullUp)
+    }
+    
     //% shim=DS18B20::Temperature
     export function Temperature(p: number): number {
         return 0
