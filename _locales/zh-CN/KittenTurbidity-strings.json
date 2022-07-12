@@ -1,4 +1,5 @@
 {
+  "KittenTurbidity.ds18init|block": "初始化水温感应器|%pin",
   "KittenTurbidity.water_temp|block": "获取水温|%p",
   "KittenTurbidity.Calibrate|block": "校准浊度感应器|%t, %pin",
   "KittenTurbidity.Calibrate_notemp|block": "校准浊度感应器|%pin",
